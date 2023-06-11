@@ -1,0 +1,3 @@
+--- multi language news support
+ALTER TABLE `nieuws` ADD `titel_en` VARCHAR(255) NOT NULL AFTER `id`;
+INSERT INTO `settings` (`setting`, `value`, `globaldef`) VALUES ('editorLanguage', 'en-EN', 1);

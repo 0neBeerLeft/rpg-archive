@@ -1,0 +1,55 @@
+/* Slider ----------------------------*/
+/* bccf318c72dda38788a4cee258dcfda8 --*/
+
+.slider {width:688px; height:206px; margin:0 0 0 10px; position:relative; overflow:hidden;}
+
+.slider .slider-overlay {width:688px; height:206px; background:url("../img/ui/slider.ov.png"); position:absolute; top:0; left:0; z-index:1;}
+
+.slider ul li span {position:relative; z-index:5; bottom:26px; left:12px;}
+
+.slider ul li a {color:#8d8d8d; font-size:11px;}
+
+.slider ul li a:hover {color:#b9b9b9;}
+
+.slider ul li a:active {color:#FFF;}
+
+.slider ul li a span {background:url("../img/icons/slide.link.png") no-repeat center left; display:block; padding-left:15px;width:60%;}
+
+div.anythingSlider {width:688px; height:206px; margin: 0 auto; overflow: hidden; /* needed for Opera and Safari */ position: relative; padding: 0 0 28px;}
+
+.start-stop {display:none;}
+
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {overflow: hidden; position: relative; width: 100%; height: 100%;}
+
+/* anythingSlider base UL */
+ul.anythingBase {background: transparent; list-style: none; position: absolute; top: 0; left: 0; margin: 0; padding: 0;}
+
+ul.anythingBase li.panel {background: transparent; display: block; overflow: hidden; float: left; padding: 0; margin: 0;}
+
+/* Navigation Arrows */
+/*div.anythingSlider .arrow {
+display: block;
+}*/
+
+div.anythingSlider .arrow a {display: block; height: 120px; margin: -60px 0 0 0; width: 45px; text-align: center; outline: 0; background: url("../img/ui/arrows-default.png") no-repeat; text-indent: -9999px;}
+
+/* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+div.anythingSlider .back.disabled {display: none;}
+
+/* Navigation Links */
+div.anythingSlider .anythingControls {outline: 0;}
+
+div.anythingSlider .thumbNav {text-align:right; margin:-22px 10px 0 0; z-index:2; position:relative;}
+
+div.anythingSlider .thumbNav li {display: inline;}
+
+div.anythingSlider .thumbNav a, div.anythingSlider .arrow a {display: inline-block; height: 9px; width:9px; margin: 2px 8px 0 0; background: url("../img/icons/slider.controls.png") top right; line-height:100px; overflow:hidden;}
+
+div.anythingSlider .thumbNav a:hover {background-position:center right;}
+
+div.anythingSlider .thumbNav a:active {/*background-position:bottom right;*/}
+
+div.anythingSlider .thumbNav a.cur {background-position:bottom right;}
+
+div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .thumbNav a, div.anythingSlider .arrow a, div.anythingSlider .start-stop {transition-duration: 0; -o-transition-duration: 0; -moz-transition-duration: 0; -webkit-transition-duration: 0;}
